@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section id="container">
+        <div id="rectangle">
+            <div class="head" id="heading">Invoice creator</div>
+            <div class="head" id="sub-heading">Thanks for choosing GoodCorp, LLC!</div>
+        </div>
+
+        <div class="btn-section">
+            <button class="btn" id="btn-1">Wash Car: $10</button>
+            <button class="btn" id="btn-2">Mow Lawn: $20</button>
+            <button class="btn" id="btn-3">Pull Weeds: $30</button>
+        </div>
+        <section class="task-total">
+            <div class="wrapper">
+                <p class="service-disc">TASK</p>
+                <p class="service-disc">TOTAL</p>
+            </div>
+                <div id="service-display" class="request">
+                    <ul id="service-ul"> 
+                        
+                    </ul>
+                    <ul id="price-ul">
+                    
+                    </ul>
+                    <!-- <ul class="service-name">Wash Car</ul>
+                        <ul class="service-value"><span>$</span> 10</ul> -->
+            </div>
+            
+                </section>
+        <section class="task-total1">
+            <p class="service-disc">NOTES</p>
+            <p class="service-disc">TOTAL AMOUNT</p>
+
+        </section>
+        <div id="total-section">
+            <p id="payment-message"></p>
+            <p id="total">$0</p>
+        </div>
+        <section id="send-invoice-sec">
+            <button id="send-invoice"><img src="imgs/Icon.png">SEND INVOICE</button>
+        </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
